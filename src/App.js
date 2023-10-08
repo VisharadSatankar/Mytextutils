@@ -5,7 +5,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import Alert from './components/Alert';
-import { createRoot } from "react-dom/client";
+// import { createRoot } from "react-dom/client";
 import {
   BrowserRouter as Router,
   Route,

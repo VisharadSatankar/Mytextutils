@@ -1,4 +1,4 @@
-import React , {useState, useSyncExternalStore} from 'react'
+// import React , {useState, useSyncExternalStore} from 'react'
 
 export default function About(props) {
     // const [btntext , mybtntext] = useState ('Enable Dark mode')

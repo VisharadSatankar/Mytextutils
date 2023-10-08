@@ -67,7 +67,7 @@ export default function TextForm(props) {
 <div className="container my-3" style={{color:props.mode==='light'?'black':'white' , backgroundColor : props.mode==='dark'?'#0a2037':'white'}}>
     <h3>You Entered</h3>
     {/* filter return true and false */}
-    <p>{text.split(" ").filter((element=>{return element.length!==0})).length} words and {wordscount()}  characters</p>
+    <p>{text.split(/\s/).filter((element=>{return element.length!==0})).length} words and {wordscount()}  characters</p>
     <h3>Preview</h3>
     <p> {text.length>0?text:'Your text will be previewed here'}</p>
 </div>
